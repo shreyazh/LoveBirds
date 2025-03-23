@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         };
 
-        setInterval(addReason, 2500);
+        setInterval(addReason, 1200);
     }
 });
 
