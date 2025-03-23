@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         };
 
-        setInterval(addReason, 5000);
+        setInterval(addReason, 2500);
     }
 });
 
@@ -62,7 +62,7 @@ function confetti() {
                 { transform: `translateY(100vh) rotate(${Math.random() * 360}deg)`, opacity: 0 }
             ],
             {
-                duration: Math.random() * 3000 + 4000,
+                duration: Math.random() * 3000 + 2000,
                 easing: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'
             }
         );
