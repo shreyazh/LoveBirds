@@ -62,7 +62,7 @@ function confetti() {
                 { transform: `translateY(100vh) rotate(${Math.random() * 360}deg)`, opacity: 0 }
             ],
             {
-                duration: Math.random() * 3000 + 1000,
+                duration: Math.random() * 3000 + 4000,
                 easing: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'
             }
         );
